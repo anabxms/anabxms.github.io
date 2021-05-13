@@ -1,0 +1,33 @@
+body {
+    background: #F8BBD0;
+    color: #021472;
+}
+
+nav {
+    font-family: 'Krona One', sans-serif;
+    font-size: 14px;
+    color: #021472;
+    li:hover: underline;
+}
+
+#sobre-mim{
+    font-family: 'Krona One', sans-serif;
+    font-size: 14px;
+}
+
+#sobre-mim:b{
+    font-family: 'Dela Gothic One', cursive;
+}
+/*
+h1 {
+    font-family: 'Dela Gothic One', cursive;
+}
+
+h2 {
+    font-family: 'Krona One', sans-serif;
+}
+
+h3 {
+    font-family: 'Space Mono', monospace;
+}
+*/
