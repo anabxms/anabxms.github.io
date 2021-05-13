@@ -2,6 +2,7 @@ body {
     background: #F8BBD0;
     color: #021472;
     font-family: 'Krona One', sans-serif;
+    overflow-x: hidden;
 }
 
 nav {
@@ -15,14 +16,21 @@ div {
     margin: 10px;
 }
 
+#capa {
+    margin-bottom: 10%;
+    margin-left: 6%;
+    margin-top: 2%;
+}
+
+
 .import-portfolio {
     font-family: 'Space Mono';
-    width: 21ch;
+    width: 23ch;
     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
-    font-size: 10px;
+    font-size: 1em;
 }
 
 @keyframes typing {
@@ -37,7 +45,23 @@ div {
   }
 }
 
+.azulejos {
+
+    margin-left: 0px;
+
+}
+
+.azulejos {
+  background-image: url("./resources/imgs/barao-rio-branco.png");
+  min-height: 200px;
+  margin-right: 0px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+}
+
 #sobre-mim {
+    margin-top:5%;
     font-family: 'Krona One', sans-serif;
     font-size: 14px;
 }
@@ -46,20 +70,11 @@ div {
     font-family: 'Dela Gothic One', cursive;
 }
 
+.card-text {
+    font-size: 10px;
+}
+
+
 footer {
     font-size: 8px;
 }
-
-/*
-h1 {
-    font-family: 'Dela Gothic One', cursive;
-}
-
-h2 {
-    font-family: 'Krona One', sans-serif;
-}
-
-h3 {
-    font-family: 'Space Mono', monospace;
-}
-*/
